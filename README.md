@@ -3,7 +3,7 @@
   <tittle>Calculadora</tittle>  
 </head>
   <body>
-    <h1 style="height: 60px;">MI PRIMERA CALCULADORA</h1>
+    <h1 style="text-align: center;">MI PRIMERA CALCULADORA</h1>
     
   </body>
 
