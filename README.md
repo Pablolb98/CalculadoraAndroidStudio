@@ -5,7 +5,7 @@
   <body>
     <h1>MI PRIMERA CALCULADORA</h1>
     <p>En este Readme demuestro como ha quedado mi calculadora, a continuacion os enseño el diseño y la clase principal</p>
-    ![image](https://user-images.githubusercontent.com/72375933/117375166-c49c3680-aece-11eb-8853-2db49db20568.png)
+    (https://user-images.githubusercontent.com/72375933/114712355-4b2a8180-9d30-11eb-836b-673f7f8ce258.png)
 
   </body>
 
