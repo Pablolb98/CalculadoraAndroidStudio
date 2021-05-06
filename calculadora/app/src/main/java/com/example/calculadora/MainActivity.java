@@ -111,4 +111,11 @@ public class MainActivity extends AppCompatActivity {
         ed1.setText(num+"");
         isNewOP = true;
     }
+
+    public void borrarEvent (View view){
+        EditText tv = findViewById(R.id.editText);
+        String str = tv.getText().toString();
+        str = str.substring(0, str.length()-1);
+        tv.setText(str.toString());
+    }
 }

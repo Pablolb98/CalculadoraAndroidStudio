@@ -9,43 +9,44 @@
 
     <Button
         android:id="@+id/btnLimpiar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="AC"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
         android:onClick="limpiarEvent"
+        android:text="AC"
         app:layout_constraintBottom_toTopOf="@+id/btnSiete"
         app:layout_constraintEnd_toStartOf="@+id/btnBorrar"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText" />
 
     <Button
         android:id="@+id/btnBorrar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:onClick="borrarEvent"
         android:text="⌫"
         app:layout_constraintBottom_toTopOf="@+id/btnOcho"
         app:layout_constraintEnd_toStartOf="@+id/btnPorcentaje"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="1"
         app:layout_constraintStart_toEndOf="@+id/btnLimpiar"
         app:layout_constraintTop_toBottomOf="@+id/editText" />
 
     <Button
         android:id="@+id/btnPorcentaje"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="%"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
         android:onClick="porcentajeEvent"
+        android:text="%"
         app:layout_constraintBottom_toTopOf="@+id/btnNueve"
         app:layout_constraintEnd_toStartOf="@+id/btnDividir"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="1"
         app:layout_constraintStart_toEndOf="@+id/btnBorrar"
         app:layout_constraintTop_toBottomOf="@+id/editText" />
 
     <Button
         android:id="@+id/btnSiete"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
         android:text="7"
         android:onClick="numberEvent"
         app:layout_constraintBottom_toTopOf="@+id/btnCuatro"
@@ -56,8 +57,8 @@
 
     <Button
         android:id="@+id/btnOcho"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
         android:text="8"
         android:onClick="numberEvent"
         app:layout_constraintBottom_toTopOf="@+id/btnCinco"
@@ -68,8 +69,8 @@
 
     <Button
         android:id="@+id/btnNueve"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
         android:text="9"
         android:onClick="numberEvent"
         app:layout_constraintBottom_toTopOf="@+id/btnSeis"
@@ -80,8 +81,8 @@
 
     <Button
         android:id="@+id/btnCinco"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
         android:text="5"
         android:onClick="numberEvent"
         app:layout_constraintBottom_toTopOf="@+id/btnDos"
@@ -92,8 +93,8 @@
 
     <Button
         android:id="@+id/btnSeis"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
         android:text="6"
         android:onClick="numberEvent"
         app:layout_constraintBottom_toTopOf="@+id/btnTres"
@@ -104,8 +105,8 @@
 
     <Button
         android:id="@+id/btnmultiplicar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
         android:text="*"
         android:onClick="operatorEvent"
         app:layout_constraintBottom_toTopOf="@+id/btnResta"
@@ -116,8 +117,8 @@
 
     <Button
         android:id="@+id/btnCuatro"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
         android:text="4"
         android:onClick="numberEvent"
         app:layout_constraintBottom_toTopOf="@+id/btnUno"
@@ -128,8 +129,8 @@
 
     <Button
         android:id="@+id/btnUno"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
         android:text="1"
         android:onClick="numberEvent"
         app:layout_constraintBottom_toTopOf="@+id/btnCero"
@@ -140,8 +141,8 @@
 
     <Button
         android:id="@+id/btnResta"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
         android:text="-"
         android:onClick="operatorEvent"
         app:layout_constraintBottom_toTopOf="@+id/btnSuma"
@@ -152,8 +153,8 @@
 
     <Button
         android:id="@+id/btnDos"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
         android:text="2"
         android:onClick="numberEvent"
         app:layout_constraintBottom_toTopOf="@+id/btnComa"
@@ -164,8 +165,8 @@
 
     <Button
         android:id="@+id/btnTres"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
         android:text="3"
         android:onClick="numberEvent"
         app:layout_constraintBottom_toTopOf="@+id/btnIgual"
@@ -176,8 +177,8 @@
 
     <Button
         android:id="@+id/btnSuma"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
         android:text="+"
         android:onClick="operatorEvent"
         app:layout_constraintBottom_toTopOf="@+id/btnIgual"
@@ -188,10 +189,10 @@
 
     <Button
         android:id="@+id/btnDividir"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="/"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
         android:onClick="operatorEvent"
+        android:text="/"
         app:layout_constraintBottom_toTopOf="@+id/btnmultiplicar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -200,8 +201,8 @@
 
     <Button
         android:id="@+id/btnIgual"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
         android:text="="
         android:onClick="igualEvent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -212,8 +213,8 @@
 
     <Button
         android:id="@+id/btnComa"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
         android:text=","
         android:onClick="numberEvent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -224,8 +225,8 @@
 
     <Button
         android:id="@+id/btnCero"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
         android:text="0"
         android:onClick="numberEvent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -238,13 +239,11 @@
         android:id="@+id/editText"
         android:layout_width="389dp"
         android:layout_height="246dp"
-        android:layout_marginTop="16dp"
         android:focusable="false"
         android:inputType="textPersonName"
         android:text="0"
         app:layout_constraintBottom_toTopOf="@+id/btnLimpiar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
